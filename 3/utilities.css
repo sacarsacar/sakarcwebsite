@@ -1,0 +1,43 @@
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items:center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding:13px 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border:double transparent;
+    border-radius:20px;
+    outline:none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    }
+    .btn-primary{
+        background-color:var(--four);
+        
+        color:black;
+    }
+    .btn-primary:hover{
+        background: transparent;
+        border-color:var(--four);
+        color: var(--four);
+    }
+    .btn-secondary{
+        background: transparent;
+        color: var(--four);
+        border-color: var(--four);
+    }
+    .btn-secondary:hover{
+        background: var(--four);
+        color:black;
+    }
+.btn btn-primary{
+    size: 10px;
+}
+
